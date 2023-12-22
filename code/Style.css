@@ -1,0 +1,131 @@
+
+
+.container{
+    width: 40vw;
+    height: 70vh;
+    background-image:   url(/images/bak.jpg)/*linear-gradient(to bottom right, rgb(104, 213, 221), rgb(66, 230, 153))*/;
+     margin-left: 30vw;
+    margin-right: 30vw;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    padding-top: 100px;
+    border-radius: 20px;
+}
+
+ 
+/* .search{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+} */
+.search input{
+    padding: 10px 273px 10px 10px;
+    background-color: rgb(236, 236, 238);
+    width: 100px;
+    position: relative;
+    top: -79px;
+    left: 10px;
+    flex: 1;
+    border-radius: 10px 0px 00px 10px;
+    border: 1px solid rgb(121, 115, 115);
+    box-shadow: 0px 2px 4PX 2px rgb(184, 182, 182);
+} 
+
+.search button{
+    background-color: rgb(212, 112, 212);
+    padding: 10px 35px 10px 35px;
+    /* width: 40PX; */
+    position: absolute;
+    right: 443px;
+    top: 51px;
+    border: 1px solid rgb(121, 115, 115);
+    border-radius: 0px 10px 10px 0px;
+    border: none;
+    box-shadow: 1px 2px 1PX 1px rgb(214, 54, 214);
+}
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin: 30px;
+}
+.temp-and-photo{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+
+}
+.temp{
+    padding-right: 200px;
+   position: relative;
+   top: -50px;
+}
+#temprature{
+    font-size: 80px;
+}
+.temp-photo{
+    position: relative;
+   right: 70px;
+   top: 10px;
+}
+.city-name{
+    font-size: 40px;
+    position: relative;
+    bottom: 100px;
+}
+.wind-and-humadity{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    bottom: 70px
+}
+.wind{
+    padding-right: 200px;
+}
+.wind img{
+    width: 70px;
+}
+.humadity img{
+    width: 70px;
+}
+.humadity img h4 h3{
+    font-size: 30px;
+}
+#humadity-ka{
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+    left: 15px;
+}
+.wind-ka{
+    font-size: 25px;
+    position: relative;
+    bottom: 20px;
+    right: 10px;
+}
+.humadity img{
+    position: relative;
+    top: 10px;
+}
+.wind img{
+    position: relative;
+    top: 10px;
+
+}
+.details{
+    display: none;
+}
+.error{
+    position: relative;
+    left: 165px;
+    top: 100px;
+    font-size: 30px;
+    color: red;
+    display: none;
+}
